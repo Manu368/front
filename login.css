@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    
+}
+.login-container{
+    background-image: url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1690131446/login_sdag4o.avif");
+    background-size: cover;
+    height:100vh;
+}
+@media screen and (max-width:991px) {
+    .mini-container{
+        background-color: #21234a;
+        opacity: 0.75;
+        width:100%;
+        text-align: left !important;
+        padding: 15px;
+        border-radius: 15px;
+        
+    }
+}
+@media screen and (min-width:992px) {
+    .mini-container{
+        background-color: #21234a;
+        opacity: 0.75;
+        width:75%;
+        text-align: left !important;
+        padding: 15px;
+        border-radius: 15px;
+        
+    }
+}
+.umesh01{
+    color:#fff;
+    font-size: 32px;
+}
+.umesh02{
+    color:#fff;
+    font-size: 25px;
+}
+.umesh03{
+    color:#fff;
+    font-size: 16px;
+}
+.umesh04 a{
+    color:#e6bc15;
+    font-size: 16px;
+}
+.lable01{
+    color:#fff;
+    padding-left: 10px;
+}
+.form-control{
+    width: 95% !important;
+}
+.but{
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.umesh04:hover{
+    color:#0ee8cb;
+    opacity: 1;
+}
+.forg{
+    color:#fff;
+    margin-top: 25px;
+    background-color: transparent !important;
+    border: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.forg:hover{
+    color:#fff !important;
+}
+#nav-tab{
+    border: 0px !important;
+}
+  
